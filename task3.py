@@ -5,5 +5,5 @@ def power_two(n):
         return "NO"
     else:
         return power_two(n // 2)
-n = int(input())
+n = int(input("Введите число: "))
 print(power_two(n))
